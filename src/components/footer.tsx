@@ -1,7 +1,7 @@
 /** biome-ignore-all lint/a11y/useValidAnchor: <explanation> */
 /** biome-ignore-all lint/a11y/useButtonType: <explanation> */
 /** biome-ignore-all lint/a11y/useButtonType: <explanation> */
-
+'use client';
 import { Facebook, Instagram, MapPin, Phone, Sparkles } from "lucide-react";
 
 const Footer = () => {
@@ -59,8 +59,8 @@ const Footer = () => {
       </div>
 
       <div className="container mx-auto px-6 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-zinc-600">
-        <p>&copy; 2024 Rio Arquitetura e Móveis. Todos os direitos reservados.</p>
-        <p className="font-mono flex items-center gap-1">Powered by Gemini AI <Sparkles className="w-3 h-3 text-yellow-400" /></p>
+        <p>&copy; {new Date().getFullYear()} hebert Planejados. Todos os direitos reservados.</p>
+        <p className="font-mono flex items-center gap-1">Feito por ZeroOnze Digital<Sparkles className="w-3 h-3 text-yellow-400" /></p>
       </div>
     </footer>
   );
