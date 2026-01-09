@@ -1,3 +1,4 @@
+/** biome-ignore-all lint/complexity/noExtraBooleanCast: <explanation> */
 'use client';
 
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
@@ -11,6 +12,7 @@ const Reveal = ({ children, className = "" }: RevealProps) => {
   const [isVisible, domRef] = useScrollReveal();
   return (
     <div
+      ref={domRef}
       className={`transition-all duration-1000 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'} ${className}`}
     >
       {children}
