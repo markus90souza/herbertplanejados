@@ -99,7 +99,7 @@ const HeroSlider = () => {
                   //onClick={() => document.getElementById('contato').scrollIntoView({ behavior: 'smooth' })}
                   className="group bg-transparent border border-white/40 text-white px-10 py-4 text-sm font-bold uppercase tracking-widest hover:bg-white/10 transition-all flex items-center gap-3"
                 >
-                  Falar com IA ✨
+                  Falar com um Consultor
                 </button>
               </div>
             </div>
