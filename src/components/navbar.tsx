@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="container mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-2 group cursor-pointer">
             <div className={`w-10 h-10 border-2 flex items-center justify-center font-serif font-bold text-xl transition-colors duration-300 ${scrolled ? 'border-black group-hover:bg-black group-hover:text-white' : 'border-white group-hover:bg-white group-hover:text-black'}`}>H</div>
-            <span className="text-2xl font-light tracking-[0.2em]">HERBERT<span className="font-bold">PLANEJADOS</span></span>
+            <span className="text-lg font-light tracking-[0.2em]">HERBERT<span className="font-bold">PLANEJADOS</span></span>
           </div>
 
           <div className="hidden md:flex items-center gap-10 text-xs font-bold tracking-widest uppercase">
